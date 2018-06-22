@@ -5,13 +5,13 @@
             <i class='comagic-c-sitephone-tools__btn comagic-c-sitephone-tools__btn--close'></i>
         </div>
         <div class='comagic-check-convers-sitephone__img-wrapper'>
-        <img class='comagic-check-convers-sitephone__img'
-             src="https://www.comagic.ru/local/templates/main/images/affiliate-costs-top-bg.jpg" />
+            <img class='comagic-check-convers-sitephone__img'
+                 src="https://scontent-arn2-1.cdninstagram.com/vp/e6a928b072cd6b92292e115b19aad49d/5BAC9B13/t51.2885-15/s640x640/sh0.08/e35/33649693_246673416084776_7215154838026321920_n.jpg "/>
         </div>
         <div class='comagic-c-sitephone'>
             <div class='comagic-check-convers-sitephone'>
                 <div class='comagic-c-sitephone-container__header'>
-                    <div class='comagic-c-sitephone-container__header-title'><%=title || 'Обратный звонок'%></div>
+                    <div class='comagic-c-sitephone-container__header-title'><%=title%></div>
                     <div class='comagic-c-sitephone-container__header-text'>Перезвоним за 26 секунд</div>
                 </div>
             </div>
@@ -102,24 +102,6 @@
                         </div>
                     </div>
                 </div>
-                <% if (banner_branding_text) { %>
-                <div class='comagic-c-sitephone-container__banner-branding comagic-c-sitephone-container__banner-branding--default'>
-                    <a href='<%= banner_branding_url %>' target='_blank'
-                       class='comagic-c-sitephone-container__banner-branding-text'><%= banner_branding_text %></a>
-                </div>
-                <% } %>
-                <% if (widget_link_text) { %>
-                <div class='comagic-c-sitephone-container__widget-link'>
-                    <label class='comagic-c-sitephone-checkbox'>
-                        <input type='checkbox' c-type='checkbox' checked
-                               class='comagic-c-sitephone-checkbox--input' c-name='personal_info'
-                               c-validator='required'>
-                        <span class='comagic-c-sitephone-field comagic-c-sitephone-checkbox--checkbox'></span>
-                    </label>
-                    <a href='<%= widget_link_url %>' target='_blank'
-                       class='comagic-c-sitephone-container__widget-link-text'><%= widget_link_text %></a>
-                </div>
-                <% } %>
             </div>
         </div>
     </div>
