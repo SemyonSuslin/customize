@@ -151,7 +151,7 @@ Comagic.UI.registerViewController('sitephone', function (settings, tpls) {
         visibilityObserver.pub('rack');
     });
     widgets['sitephone'].refs['submitBtn'].addEventListener('click', function () {
-        if (!widgets['sitephone'].getErrors()) {g
+        if (!widgets['sitephone'].getErrors()) {
             widgets['sitephone'].refs['submitBtn'].classList.add('comagic-js-button--disabled');
             widgets['sitephone'].startCall(widgets['sitephone'].getValues());
         }
