@@ -1,0 +1,16 @@
+{
+   "sitecw2.webdev.uiscom.ru": [
+       {
+           "name": "h1",
+           "startDate": "2018-06-21",
+           "endDate": "2018-07-02",
+           "applyWidgetUrls": [
+               {
+                   "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h1/avtov/desktop/js/sitephone.debug.js",
+                   "/widget/css/sitephone2/desktop/sitephone-3880ED.css": "https://rawgit.com/SemyonSuslin/customize/master/h1/avtov/desktop/css/style.css",
+                   "/widget/html/sitephone2/desktop/sitephone.html": "https://rawgit.com/SemyonSuslin/customize/master/h1/avtov/desktop/html/sitephone.html"
+               },
+               {}
+           ]
+       }]
+}
