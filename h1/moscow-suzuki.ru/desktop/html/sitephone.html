@@ -5,24 +5,22 @@
             <i class='comagic-c-sitephone-tools__btn comagic-c-sitephone-tools__btn--close'></i>
         </div>
         <div class='comagic-check-convers-sitephone__img-wrapper'>
-            <img class='comagic-check-convers-sitephone__img'
-                 src="https://static.tildacdn.com/tild3665-3135-4663-b237-303639366531/100300.jpg"/>
         </div>
         <div class='comagic-c-sitephone'>
-            <div class='comagic-check-convers-sitephone'>
-                <div class='comagic-c-sitephone-container__header'>
-                    <div class='comagic-c-sitephone-container__header-title'><%=title%></div>
-                    <div class='comagic-c-sitephone-container__header-text'>Перезвоним за 26 секунд</div>
-                </div>
+            <div class='comagic-check-convers-sitephone' c-ref="img" style="background-image: url(http://www.moscow-suzuki.ru/upload/medialibrary/7e4/7e4fc8d7d8fe54578d981487444f890d.jpg);">
             </div>
-            <div class='comagic-check-convers-sitephone comagic-check-convers-sitephone--not-white'>
+            <div class='comagic-check-convers-sitephone comagic-check-convers-sitephone--white'>
+                <div class='comagic-c-sitephone-container__header'>
+                     <div class='comagic-c-sitephone-container__header-title' c-ref="title"><%=title%></div>
+                     <div class='comagic-c-sitephone-container__header-text' c-ref="text">Перезвоним за 26 секунд</div>
+                </div>
                 <div class='comagic-c-sitephone__body'>
                     <div class='comagic-c-sitephone__form'>
                         <div class='comagic-h-sitephone-relative'>
                             <div class='comagic-c-sitephone-field comagic-c-sitephone-field--cursor-text comagic-c-sitephone-field--default comagic-h-sitephone-margin-top'
-                                 placeholder='<%=Comagic.UI.C.PLACEHOLDERS["phone"]%> *' contenteditable='true'
+                                 placeholder='+7 ___ ___ __ __' contenteditable='true'
                                  c-name='phone' c-type='numberfield' c-validator='required phone'
-                                 c-mask='<%=Comagic.UI.C.PHONE_MASK_FORMAT%>'
+                                 c-mask='+7 ___ ___ __ __'
                                  c-ref='phone'></div>
                         </div>
                         <% if (is_groups_enabled) { %>
@@ -75,7 +73,7 @@
                         </div>
                         <% } %>
                         <% if (is_captcha_enabled) { %>
-                        <div class='comagic-c-sitephone-field-list--double comagic-h-sitephone-margin-top comagic-h-sitephone-relative'>
+                        <div class='comagic-c-sitephone-field-list--double <%=(!delayed_call_times ? "comagic-h-sitephone-margin-top" : "")%> comagic-h-sitephone-relative'>
                             <div class='comagic-c-sitephone-field comagic-c-sitephone-field--cursor-text comagic-c-sitephone-field--default comagic-c-sitephone-field--captcha'
                                  placeholder='<%=Comagic.UI.C.PLACEHOLDERS["captcha"]%> *' contenteditable='true'
                                  c-name='captcha_value' c-type='numberfield' c-validator='required'

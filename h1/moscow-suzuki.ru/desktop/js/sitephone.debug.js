@@ -134,7 +134,7 @@ Comagic.UI.registerViewController('sitephone', function (settings, tpls) {
                 widgets['sitephone'].refs['captchaImg'].src = data.url;
                 widgets['sitephone'].refs['captcha'].innerHTML = '';
                 widgets['sitephone'].refs['captchaKey'].innerHTML = data.key;
-            }, {'bg': '#' + settings.banner_color});
+            }, {'bg': '#0099da'});
         }
     }
 
