@@ -211,6 +211,9 @@ Comagic.UI.registerViewController('sitephone', function (settings, tpls) {
     visibilityObserver.pub('hide_all');
     visibilityObserver.pub('rack');
 
+    //abtesting
+    Comagic.trackEvent('Sitephoneh1', 'Sitephoneh1');
+
     Comagic.on('sleep', function () {
         visibilityObserver.pub('hide_all');
     })

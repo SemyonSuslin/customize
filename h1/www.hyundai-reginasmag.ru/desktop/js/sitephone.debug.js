@@ -134,7 +134,7 @@ Comagic.UI.registerViewController('sitephone', function (settings, tpls) {
                 widgets['sitephone'].refs['captchaImg'].src = data.url;
                 widgets['sitephone'].refs['captcha'].innerHTML = '';
                 widgets['sitephone'].refs['captchaKey'].innerHTML = data.key;
-            }, {'bg': '#0099da'});
+            }, {'bg': '#' + settings.banner_color});
         }
     }
 
@@ -210,6 +210,9 @@ Comagic.UI.registerViewController('sitephone', function (settings, tpls) {
     visibilityObserver.sub(updateVisibility);
     visibilityObserver.pub('hide_all');
     visibilityObserver.pub('rack');
+
+    //abtesting
+    Comagic.trackEvent('Sitephoneh1', 'Sitephoneh1');
 
     Comagic.on('sleep', function () {
         visibilityObserver.pub('hide_all');
