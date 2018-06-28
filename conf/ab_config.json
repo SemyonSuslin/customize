@@ -6,9 +6,9 @@
       "endDate": "2018-07-02",
       "applyWidgetUrls": [
         {
-           "/widget/js/sitephone2/desktop/sitephone.min.js": "https://raw.githubusercontent.com/SemyonSuslin/customize/master/h1/saturn-2.lada.ru%20%26%26%20autovek.lada.ru/desktop/js/sitephone.debug.js",
-          "/widget/css/sitephone2/desktop/sitephone-70CC7C.css": "https://raw.githubusercontent.com/SemyonSuslin/customize/master/h1/saturn-2.lada.ru%20%26%26%20autovek.lada.ru/desktop/css/style.css",
-          "/widget/html/sitephone2/desktop/sitephone.html": "https://raw.githubusercontent.com/SemyonSuslin/customize/master/h1/saturn-2.lada.ru%20%26%26%20autovek.lada.ru/desktop/html/sitephone.html"
+          "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h1/moscow-suzuki.ru/desktop/js/sitephone.debug.js",
+          "/widget/css/sitephone2/desktop/sitephone-70CC7C.css": "https://rawgit.com/SemyonSuslin/customize/master/h1/moscow-suzuki.ru/desktop/css/style.css",
+          "/widget/html/sitephone2/desktop/sitephone.html": "https://rawgit.com/SemyonSuslin/customize/master/h1/moscow-suzuki.ru/desktop/html/sitephone.html"
         },
         {}
       ]
