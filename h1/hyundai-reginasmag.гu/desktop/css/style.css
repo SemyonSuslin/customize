@@ -585,7 +585,9 @@
   position: absolute;
   z-index: 0;
   filter: blur(1px);
-  width: 850px; }
+  width: 850px;
+  height: 456px;
+  top: -26px;}
 
 .comagic-check-convers-sitephone__img-wrapper {
   width: 635px;
