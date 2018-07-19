@@ -46,9 +46,10 @@ Comagic.UI.registerViewController('sitephone', function (settings, tpls) {
 
             return internalWidgets;
         },
-        widgets = newWidgets('sitephone_label', 'rack',  'sitephone'),
+        widgets = newWidgets('sitephone_label', 'rack', 'simple_sitephone', 'sitephone'),
         renderToBodyWidgets = ['rack', 'sitephone'],
-        widgetSitephone = widgets['sitephone'],
+        widgetSitephone = settings.is_rich_functional ? widgets['sitephone'] : widgets['simple_sitephone'],
+        sitephoneLabelEl,
         visibilityObserver;
 
     function rulesReducer(action) {
@@ -56,32 +57,29 @@ Comagic.UI.registerViewController('sitephone', function (settings, tpls) {
         return {
             sitephone_label: (function () {
                 switch (action) {
+                    case 'simple_sitephone':
                     case 'rack':
                         return isVisibleSitephoneLabel;
                     case 'sitephone':
-                        return false;
+                        return !settings.is_rich_functional && isVisibleSitephoneLabel;
                     default:
                         return false
                 }
             })(),
-            rack: (function () {
+            simple_sitephone: (function () {
                 switch (action) {
-                    case 'sitephone_label':
-                    case 'rack':
-                        return true;
                     case 'sitephone':
-                        return false;
+                    case 'simple_sitephone':
+                        return !settings.is_rich_functional && isVisibleSitephoneLabel;
                     default:
                         return false
                 }
             })(),
+            rack: true,
             sitephone: (function () {
                 switch (action) {
-                    case 'sitephone_label':
-                    case 'rack':
-                        return false;
                     case 'sitephone':
-                        return true;
+                        return settings.is_rich_functional || !isVisibleSitephoneLabel;
                     default:
                         return false
                 }
@@ -134,13 +132,15 @@ Comagic.UI.registerViewController('sitephone', function (settings, tpls) {
                 widgets['sitephone'].refs['captchaImg'].src = data.url;
                 widgets['sitephone'].refs['captcha'].innerHTML = '';
                 widgets['sitephone'].refs['captchaKey'].innerHTML = data.key;
-            }, {'bg': '#0099da'});
+            }, {'bg': '#' + settings.banner_color});
         }
     }
 
     widgets.do('render', null, renderToBodyWidgets);
     widgets.do('render', [widgets['rack'].getEl()], ['sitephone_label']);
 
+    sitephoneLabelEl = widgets['sitephone_label'].getEl();
+    widgets.do('render', [sitephoneLabelEl, sitephoneLabelEl.firstChild], ['simple_sitephone']);
 
     //sitephones
     widgets['sitephone_label'].refs['trigger'].addEventListener('click', function () {
@@ -150,10 +150,19 @@ Comagic.UI.registerViewController('sitephone', function (settings, tpls) {
     widgets['sitephone'].refs['closeBtn'].addEventListener('click', function () {
         visibilityObserver.pub('rack');
     });
+    widgets['simple_sitephone'].refs['closeBtn'].addEventListener('click', function () {
+        visibilityObserver.pub('rack');
+    });
     widgets['sitephone'].refs['submitBtn'].addEventListener('click', function () {
         if (!widgets['sitephone'].getErrors()) {
             widgets['sitephone'].refs['submitBtn'].classList.add('comagic-js-button--disabled');
             widgets['sitephone'].startCall(widgets['sitephone'].getValues());
+        }
+    });
+    widgets['simple_sitephone'].refs['submitBtn'].addEventListener('click', function () {
+        if (!widgets['simple_sitephone'].getErrors()) {
+            widgets['simple_sitephone'].refs['submitBtn'].classList.add('comagic-js-button--disabled');
+            widgets['sitephone'].startCall(widgets['simple_sitephone'].getValues());
         }
     });
     widgetSitephone.refs['captchaUpdateBtn'] && widgetSitephone.refs['captchaUpdateBtn'].addEventListener('click', updateCaptcha);
@@ -205,6 +214,24 @@ Comagic.UI.registerViewController('sitephone', function (settings, tpls) {
         }
     }));
 
+    widgets['sitephone'].on('callcomplete', afterSubmit({
+        widgetName: 'simple_sitephone',
+        isClear: true,
+        doAfterSubmit: function (answer) {
+            if (widgets['simple_sitephone'].isVisible()) {
+                visibilityObserver.pub('rack');
+                var handler = function () {
+                    widgets['simple_sitephone'].refs['content'].removeEventListener('transitionend', handler);
+                    if (!answer.success) {
+                        visibilityObserver.pub('simple_sitephone');
+                    }
+                    widgets['simple_sitephone'].refs['submitBtn'].classList.remove('comagic-js-button--disabled');
+                };
+                widgets['simple_sitephone'].refs['content'].addEventListener('transitionend', handler);
+            }
+        }
+    }));
+
     //set visibility props
     visibilityObserver = Comagic.UI.createObserver(rulesReducer);
     visibilityObserver.sub(updateVisibility);
@@ -212,7 +239,11 @@ Comagic.UI.registerViewController('sitephone', function (settings, tpls) {
     visibilityObserver.pub('rack');
 
     //abtesting
-    Comagic.trackEvent('Sitephoneh1', 'Sitephoneh1');
+    Comagic.trackEvent('Sitephoneh1B', 'Sitephoneh1B');
+
+    widgetSitephone.on('show', function () {
+        Comagic.trackEvent('Sitephoneh1_B_SHOW', 'Sitephoneh1_B_SHOW');
+    });
 
     Comagic.on('sleep', function () {
         visibilityObserver.pub('hide_all');
