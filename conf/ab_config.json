@@ -17,6 +17,7 @@
   "saturn-2.lada.ru": [
     {
       "name": "h1",
+      "devices": ["desktop", "tablet"],
       "startDate": "2018-07-18",
       "endDate": "2018-08-16",
       "applyWidgetUrls": [
