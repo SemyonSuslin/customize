@@ -81,8 +81,8 @@
   "msk.moto-avtodom.ru": [
     {
       "name": "h1",
-      "startDate": "2018-06-28",
-      "endDate": "2018-07-16",
+      "startDate": "2018-07-23",
+      "endDate": "2018-08-06",
       "applyWidgetUrls": [
         {
           "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h1/msk.moto-avtodom.ru%20%26%26%20www.moto-avtodom.ru/desktop/A/js/sitephone.debug.js",
@@ -98,8 +98,8 @@
   "www.moto-avtodom.ru": [
     {
       "name": "h1",
-      "startDate": "2018-06-28",
-      "endDate": "2018-07-16",
+      "startDate": "2018-07-23",
+      "endDate": "2018-08-06",
       "applyWidgetUrls": [
         {
           "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h1/msk.moto-avtodom.ru%20%26%26%20www.moto-avtodom.ru/desktop/A/js/sitephone.debug.js",
@@ -115,8 +115,8 @@
   "www.mini-avtodom.ru": [
     {
       "name": "h1",
-      "startDate": "2018-06-28",
-      "endDate": "2018-07-16",
+      "startDate": "2018-07-23",
+      "endDate": "2018-08-06",
       "applyWidgetUrls": [
         {
           "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h1/www.mini-avtodom.ru/desktop/A/js/sitephone.debug.js",
