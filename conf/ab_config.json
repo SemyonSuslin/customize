@@ -64,24 +64,6 @@
       ]
     }
   ],
-  "www.hyundai-reginasmag.ru": [
-    {
-      "name": "h1",
-      "devices": ["desktop", "tablet"],
-      "startDate": "2018-06-28",
-      "endDate": "2018-07-16",
-      "applyWidgetUrls": [
-        {
-          "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h1/hyundai-reginasmag.%D0%B3u/desktop/A/js/sitephone.debug.js",
-          "/widget/css/sitephone2/desktop/sitephone-3880ED.css": "https://rawgit.com/SemyonSuslin/customize/master/h1/hyundai-reginasmag.%D0%B3u/desktop/A/css/style.css",
-          "/widget/html/sitephone2/desktop/sitephone.html": "https://rawgit.com/SemyonSuslin/customize/master/h1/hyundai-reginasmag.%D0%B3u/desktop/A/html/sitephone.html"
-        },
-        {
-          "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h1/hyundai-reginasmag.%D0%B3u/desktop/B/js/sitephone.debug.js"
-        }
-      ]
-    }
-  ],
   "msk.moto-avtodom.ru": [
     {
       "name": "h1",
