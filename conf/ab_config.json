@@ -153,5 +153,23 @@
         }
       ]
     }
+  ],
+  "www.moscow-suzuki.ru": [
+    {
+      "name": "h1",
+      "devices": ["desktop", "tablet"],
+      "startDate": "2018-07-30",
+      "endDate": "2018-08-06",
+      "applyWidgetUrls": [
+        {
+          "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h1/moscow-suzuki.ru/desktop/A/js/sitephone.debug.js",
+          "/widget/css/sitephone2/desktop/sitephone-3880ED.css": "https://rawgit.com/SemyonSuslin/customize/master/h1/moscow-suzuki.ru/desktop/A/css/style.css",
+          "/widget/html/sitephone2/desktop/sitephone.html": "https://rawgit.com/SemyonSuslin/customize/master/h1/moscow-suzuki.ru/desktop/A/html/sitephone.html"
+        },
+        {
+          "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h1/moscow-suzuki.ru/desktop/B/js/sitephone.debug.js"
+        }
+      ]
+    }
   ]
 }
