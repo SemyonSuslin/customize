@@ -154,7 +154,7 @@
       ]
     }
   ],
-  "hyundai-reginasmag.гu": [
+  "hyundai-reginasmag.ru": [
     {
       "name": "h1",
       "devices": ["desktop", "tablet"],
@@ -162,12 +162,12 @@
       "endDate": "2018-08-06",
       "applyWidgetUrls": [
         {
-          "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h1/hyundai-reginasmag.гu/desktop/A/js/sitephone.debug.js",
-          "/widget/css/sitephone2/desktop/sitephone-3880ED.css": "https://rawgit.com/SemyonSuslin/customize/master/h1/hyundai-reginasmag.гu/desktop/A/css/style.css",
-          "/widget/html/sitephone2/desktop/sitephone.html": "https://rawgit.com/SemyonSuslin/customize/master/h1/hyundai-reginasmag.гu/desktop/A/html/sitephone.html"
+          "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h1/hyundai-reginasmag.ru/desktop/A/js/sitephone.debug.js",
+          "/widget/css/sitephone2/desktop/sitephone-3880ED.css": "https://rawgit.com/SemyonSuslin/customize/master/h1/hyundai-reginasmag.ru/desktop/A/css/style.css",
+          "/widget/html/sitephone2/desktop/sitephone.html": "https://rawgit.com/SemyonSuslin/customize/master/h1/hyundai-reginasmag.ru/desktop/A/html/sitephone.html"
         },
         {
-          "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h1/hyundai-reginasmag.гu/desktop/B/js/sitephone.debug.js"
+          "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h1/hyundai-reginasmag.ru/desktop/B/js/sitephone.debug.js"
         }
       ]
     }
