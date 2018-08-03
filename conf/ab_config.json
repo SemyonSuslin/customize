@@ -19,7 +19,7 @@
       "name": "h1",
       "devices": ["desktop", "tablet"],
       "startDate": "2018-07-18",
-      "endDate": "2018-08-16",
+      "endDate": "2018-09-16",
       "applyWidgetUrls": [
         {
           "/widget/js/sitephone2/mobile/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h1/saturn-2.lada.ru%20%26%26%20autovek.lada.ru/kostyl/sitephone.js"
@@ -33,7 +33,7 @@
       "name": "h1",
       "devices": ["desktop", "tablet"],
       "startDate": "2018-07-23",
-      "endDate": "2018-08-06",
+      "endDate": "2018-09-06",
       "applyWidgetUrls": [
         {
           "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h1/saturn-2.lada.ru%20%26%26%20autovek.lada.ru/desktop/A/js/sitephone.debug.js",
@@ -51,7 +51,7 @@
       "name": "h1",
       "devices": ["desktop", "tablet"],
       "startDate": "2018-07-23",
-      "endDate": "2018-08-06",
+      "endDate": "2018-09-06",
       "applyWidgetUrls": [
         {
           "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h1/saturn-2.lada.ru%20%26%26%20autovek.lada.ru/desktop/A/js/sitephone.debug.js",
@@ -69,7 +69,7 @@
       "name": "h1",
       "devices": ["desktop", "tablet"],
       "startDate": "2018-07-23",
-      "endDate": "2018-08-06",
+      "endDate": "2018-09-06",
       "applyWidgetUrls": [
         {
           "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h1/msk.moto-avtodom.ru%20%26%26%20www.moto-avtodom.ru/desktop/A/js/sitephone.debug.js",
@@ -87,7 +87,7 @@
       "name": "h1",
       "devices": ["desktop", "tablet"],
       "startDate": "2018-07-23",
-      "endDate": "2018-08-06",
+      "endDate": "2018-09-06",
       "applyWidgetUrls": [
         {
           "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h1/msk.moto-avtodom.ru%20%26%26%20www.moto-avtodom.ru/desktop/A/js/sitephone.debug.js",
@@ -105,7 +105,7 @@
       "name": "h1",
       "devices": ["desktop", "tablet"],
       "startDate": "2018-07-23",
-      "endDate": "2018-08-06",
+      "endDate": "2018-09-06",
       "applyWidgetUrls": [
         {
           "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h1/www.mini-avtodom.ru/desktop/A/js/sitephone.debug.js",
@@ -123,7 +123,7 @@
       "name": "h1",
       "devices": ["desktop", "tablet"],
       "startDate": "2018-07-23",
-      "endDate": "2018-08-06",
+      "endDate": "2018-09-06",
       "applyWidgetUrls": [
         {
           "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h1/maximum-suzuki.ru/desktop/A/js/sitephone.debug.js",
@@ -141,7 +141,7 @@
       "name": "h1",
       "devices": ["desktop", "tablet"],
       "startDate": "2018-07-30",
-      "endDate": "2018-08-06",
+      "endDate": "2018-09-06",
       "applyWidgetUrls": [
         {
           "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h1/hyundai-reginasmag.ru/desktop/A/js/sitephone.debug.js",
@@ -159,7 +159,7 @@
       "name": "h1",
       "devices": ["desktop", "tablet"],
       "startDate": "2018-07-30",
-      "endDate": "2018-08-06",
+      "endDate": "2018-09-06",
       "applyWidgetUrls": [
         {
           "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h1/moscow-suzuki.ru/desktop/A/js/sitephone.debug.js",
