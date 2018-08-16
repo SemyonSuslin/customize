@@ -412,6 +412,7 @@
 .comagic-c-sitephone-container--top {
   transform-origin: top;
   justify-content: flex-start;
+  top: 0;
 }
 
 .comagic-c-sitephone-container--middle {
@@ -421,6 +422,7 @@
 .comagic-c-sitephone-container--bottom {
   transform-origin: bottom;
   justify-content: flex-end;
+  bottom: 0;
 }
 
 .comagic-c-sitephone-container--left {
