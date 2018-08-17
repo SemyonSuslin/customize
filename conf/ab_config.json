@@ -189,5 +189,23 @@
         }
       ]
     }
+  ],
+  "legenda-dom.ru": [
+    {
+      "name": "h3",
+      "devices": ["mobile"],
+      "startDate": "2018-08-17",
+      "endDate": "2018-09-17",
+      "applyWidgetUrls": [
+        {
+          "/widget/js/sitephone2/mobile/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h3/legenda-dom.ru/desktop/A/js/sitephone.debug.js",
+          "/widget/css/sitephone2/mobile/sitephone-96c1e4.css": "https://rawgit.com/SemyonSuslin/customize/master/h3/legenda-dom.ru/desktop/A/css/style.css",
+          "/widget/html/sitephone2/mobile/sitephone_label.html": "https://rawgit.com/SemyonSuslin/customize/master/h3/legenda-dom.ru/desktop/A/html/sitephone_label.html"
+        },
+        {
+          "/widget/js/sitephone2/mobile/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h3/legenda-dom.ru/desktop/B/js/sitephone.debug.js"
+        }
+      ]
+    }
   ]
 }
