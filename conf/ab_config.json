@@ -193,7 +193,7 @@
   "legenda-dom.ru": [
     {
       "name": "h3",
-      "devices": ["mobile"],
+      "devices": ["desktop"],
       "startDate": "2018-08-17",
       "endDate": "2018-09-17",
       "applyWidgetUrls": [
