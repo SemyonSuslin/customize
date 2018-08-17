@@ -171,5 +171,23 @@
         }
       ]
     }
+  ],
+  "petromaster.ru": [
+    {
+      "name": "h2",
+      "devices": ["mobile"],
+      "startDate": "2018-08-17",
+      "endDate": "2018-09-17",
+      "applyWidgetUrls": [
+        {
+          "/widget/js/sitephone2/mobile/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h2/petromaster.ru/mobile/A/js/sitephone.debug.js",
+          "/widget/css/sitephone2/mobile/sitephone-159b3a.css": "https://rawgit.com/SemyonSuslin/customize/master/h2/petromaster.ru/mobile/A/css/style.css",
+          "/widget/html/sitephone2/mobile/sitephone.html": "https://rawgit.com/SemyonSuslin/customize/master/h2/petromaster.ru/mobile/A/html/sitephone.html"
+        },
+        {
+          "/widget/js/sitephone2/mobile/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h2/petromaster.ru/mobile/B/js/sitephone.debug.js"
+        }
+      ]
+    }
   ]
 }
