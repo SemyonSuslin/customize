@@ -207,5 +207,23 @@
         }
       ]
     }
+  ],
+  "www.bmw-avtodom.ru": [
+    {
+      "name": "h3",
+      "devices": ["desktop"],
+      "startDate": "2018-08-22",
+      "endDate": "2018-09-22",
+      "applyWidgetUrls": [
+        {
+          "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h3/www.bmw-avtodom.ru/desktop/A/js/sitephone.debug.js",
+          "/widget/css/sitephone2/desktop/sitephone-3880ED.css": "https://rawgit.com/SemyonSuslin/customize/master/h3/www.bmw-avtodom.ru/desktop/A/css/style.css",
+          "/widget/html/sitephone2/desktop/sitephone_label.html": "https://rawgit.com/SemyonSuslin/customize/master/h3/www.bmw-avtodom.ru/desktop/A/html/sitephone_label.html"
+        },
+        {
+          "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h3/www.bmw-avtodom.ru/desktop/B/js/sitephone.debug.js"
+        }
+      ]
+    }
   ]
 }
