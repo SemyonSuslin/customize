@@ -198,6 +198,7 @@
   .comagic-c-sitephone-label__icon-text {
     position: absolute;
     text-align: center;
+      line-height: 12px;
     font-size: 9px;
     transform: rotate3d(0, 0, 0, 0);
     background-size: cover;
