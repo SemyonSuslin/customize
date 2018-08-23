@@ -714,6 +714,7 @@
 .comagic-c-sitephone-label--footer {
   z-index: 500;
   position: fixed;
+  box-sizing: content-box;
   bottom: 0;
   min-width: 320px;
   width: 100%;
