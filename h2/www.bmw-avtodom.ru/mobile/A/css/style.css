@@ -711,6 +711,9 @@
   font-weight: normal;
   font-family: "Open Sans", sans-serif; }
 
+.comagic-c-sitephone-label--footer > * {
+  box-sizing: content-box;
+}
 .comagic-c-sitephone-label--footer {
   z-index: 500;
   position: fixed;
