@@ -224,6 +224,23 @@
           "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h3/www.bmw-avtodom.ru/desktop/B/js/sitephone.debug.js"
         }
       ]
+    },
+    {
+      "name": "h2",
+      "devices": ["mobile"],
+      "startDate": "2018-08-23",
+      "endDate": "2018-09-23",
+      "applyWidgetUrls": [
+        {
+          "/widget/js/sitephone2/mobile/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h2/www.bmw-avtodom.ru/mobile/A/js/sitephone.debug.js",
+          "/widget/css/sitephone2/mobile/sitephone-3880ED.css": "https://rawgit.com/SemyonSuslin/customize/master/h2/www.bmw-avtodom.ru/mobile/A/css/style.css",
+          "/widget/html/sitephone2/mobile/sitephone.html": "https://rawgit.com/SemyonSuslin/customize/master/h2/www.bmw-avtodom.ru/mobile/A/html/sitephone.html",
+          "/widget/html/sitephone2/mobile/sitephone_label.html": "https://rawgit.com/SemyonSuslin/customize/master/h2/www.bmw-avtodom.ru/mobile/A/html/sitephone_label.html"
+        },
+        {
+          "/widget/js/sitephone2/mobile/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h2/www.bmw-avtodom.ru/mobile/B/js/sitephone.debug.js"
+        }
+      ]
     }
   ]
 }
