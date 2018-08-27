@@ -172,8 +172,12 @@ Comagic.UI.registerViewController('sitephone', function (settings, tpls) {
         }
     }
 
-    widgets['sitephone_label'].on('render', function () {
-
+    widgets['sitephone'].on('render', function () {
+        $.getJSON("http://ip-api.com/json/?callback=?", function (data) {
+            if (data['region'] === 'SPE') {
+                widgets['sitephone'].refs['sitephoneNumber'].href = 'tel:+78125005007';
+            }
+        });
     });
 
     widgets.do('render', null, renderToBodyWidgets);
