@@ -1,4 +1,5 @@
 Comagic.UI.registerViewController('sitephone', function (settings, tpls) {
+    settings.is_visible = true;
     var widgetsFullSize = ['sitephone'],
         isSleep = false,
 
