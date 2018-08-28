@@ -1,4 +1,8 @@
 Comagic.UI.registerViewController('sitephone', function (settings, tpls) {
+    var disableUrls = ['personal', 'basket', 'order'];
+    for (var i = 0; i < disableUrls.length; i++) {
+        settings.is_visible = settings.is_visible && window.location.href.toString().indexOf(disableUrls[i]) === -1;
+    }
     var widgetsFullSize = ['sitephone'],
         isSleep = false,
 
@@ -12,7 +16,7 @@ Comagic.UI.registerViewController('sitephone', function (settings, tpls) {
             top: settings.v_position,
             left: settings.h_position
         },
-        middlePositionMargin = labelPosition.top === 'middle' ? labelsSize/2 + defaultMarginTop : 0,
+        middlePositionMargin = labelPosition.top === 'middle' ? labelsSize / 2 + defaultMarginTop : 0,
 
         newWidgets = function () {
             var widgetsName = Array.prototype.slice.call(arguments);
@@ -69,6 +73,7 @@ Comagic.UI.registerViewController('sitephone', function (settings, tpls) {
         }
         return isVisible;
     }
+
     function isVisibleOfflineMessage() {
         var isVisible = false;
         if (Comagic.UI.getWidget('consultant_label') && Comagic.UI.getWidget('consultant_chat')) {
@@ -77,9 +82,11 @@ Comagic.UI.registerViewController('sitephone', function (settings, tpls) {
         }
         return isVisible;
     }
+
     function isVisibleConsultantLabel() {
         return isVisibleChat() || isVisibleOfflineMessage();
     }
+
     function isVisibleSitephoneLabel() {
         return settings.is_visible && (settings.is_schedule_active || settings.is_always_displayed);
     }
@@ -262,6 +269,7 @@ Comagic.UI.registerViewController('sitephone', function (settings, tpls) {
             widgets[widgetName].getEl('.comagic-c-sitephone-container__landscape').classList[classListAction]('comagic-js-sitephone-container--shown');
         }
     }
+
     function isActiveElementBelongsToWidget(element) {
         var widgetClasses = ['comagic-c-field', 'comagic-c-select--select'],
             isActiveElementBelongsToWidget = false;
