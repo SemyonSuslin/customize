@@ -49,56 +49,37 @@
       ]
     }
   ],
-  "msk.moto-avtodom.ru": [
-    {
-      "name": "h1",
-      "devices": ["desktop", "tablet"],
-      "startDate": "2018-07-23",
-      "endDate": "2018-09-06",
-      "applyWidgetUrls": [
-        {
-          "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h1/msk.moto-avtodom.ru%20%26%26%20www.moto-avtodom.ru/desktop/A/js/sitephone.debug.js",
-          "/widget/css/sitephone2/desktop/sitephone-3880ED.css": "https://rawgit.com/SemyonSuslin/customize/master/h1/msk.moto-avtodom.ru%20%26%26%20www.moto-avtodom.ru/desktop/A/css/style.css",
-          "/widget/html/sitephone2/desktop/sitephone.html": "https://rawgit.com/SemyonSuslin/customize/master/h1/msk.moto-avtodom.ru%20%26%26%20www.moto-avtodom.ru/desktop/A/html/sitephone.html"
-        },
-        {
-          "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h1/msk.moto-avtodom.ru%20%26%26%20www.moto-avtodom.ru/desktop/B/js/sitephone.debug.js"
-        }
-      ]
-    }
-  ],
   "www.moto-avtodom.ru": [
     {
-      "name": "h1",
-      "devices": ["desktop", "tablet"],
-      "startDate": "2018-07-23",
-      "endDate": "2018-09-06",
+      "name": "h2",
+      "devices": ["mobile"],
+      "startDate": "2018-09-04",
+      "endDate": "2018-09-23",
       "applyWidgetUrls": [
         {
-          "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h1/msk.moto-avtodom.ru%20%26%26%20www.moto-avtodom.ru/desktop/A/js/sitephone.debug.js",
-          "/widget/css/sitephone2/desktop/sitephone-3880ED.css": "https://rawgit.com/SemyonSuslin/customize/master/h1/msk.moto-avtodom.ru%20%26%26%20www.moto-avtodom.ru/desktop/A/css/style.css",
-          "/widget/html/sitephone2/desktop/sitephone.html": "https://rawgit.com/SemyonSuslin/customize/master/h1/msk.moto-avtodom.ru%20%26%26%20www.moto-avtodom.ru/desktop/A/html/sitephone.html"
+          "/widget/js/sitephone2/mobile/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h2/www.moto-avtodom.ru/mobile/A/js/sitephone.debug.js",
+          "/widget/css/sitephone2/mobile/sitephone-3880ED.css": "https://rawgit.com/SemyonSuslin/customize/master/h2/www.moto-avtodom.ru/mobile/A/css/style.css",
+          "/widget/html/sitephone2/mobile/sitephone_label.html": "https://rawgit.com/SemyonSuslin/customize/master/h2/www.moto-avtodom.ru/mobile/A/html/sitephone_label.html"
         },
         {
-          "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h1/msk.moto-avtodom.ru%20%26%26%20www.moto-avtodom.ru/desktop/B/js/sitephone.debug.js"
+          "/widget/js/sitephone2/mobile/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h2/www.moto-avtodom.ru/mobile/B/js/sitephone.debug.js"
         }
       ]
     }
   ],
-  "www.mini-avtodom.ru": [
-    {
-      "name": "h1",
-      "devices": ["desktop", "tablet"],
-      "startDate": "2018-07-23",
-      "endDate": "2018-09-06",
+  "www.mini-avtodom.ru": [{
+      "name": "h2",
+      "devices": ["mobile"],
+      "startDate": "2018-09-04",
+      "endDate": "2018-09-23",
       "applyWidgetUrls": [
         {
-          "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h1/www.mini-avtodom.ru/desktop/A/js/sitephone.debug.js",
-          "/widget/css/sitephone2/desktop/sitephone-FFB320.css": "https://rawgit.com/SemyonSuslin/customize/master/h1/www.mini-avtodom.ru/desktop/A/css/style.css",
-          "/widget/html/sitephone2/desktop/sitephone.html": "https://rawgit.com/SemyonSuslin/customize/master/h1/www.mini-avtodom.ru/desktop/A/html/sitephone.html"
+          "/widget/js/sitephone2/mobile/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h2/www.mini-avtodom.ru/mobile/A/js/sitephone.debug.js",
+          "/widget/css/sitephone2/mobile/sitephone-FFB320.css": "https://rawgit.com/SemyonSuslin/customize/master/h2/www.mini-avtodom.ru/mobile/A/css/style.css",
+          "/widget/html/sitephone2/mobile/sitephone_label.html": "https://rawgit.com/SemyonSuslin/customize/master/h2/www.mini-avtodom.ru/mobile/A/html/sitephone_label.html"
         },
         {
-          "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h1/www.mini-avtodom.ru/desktop/B/js/sitephone.debug.js"
+          "/widget/js/sitephone2/mobile/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h2/www.mini-avtodom.ru/mobile/B/js/sitephone.debug.js"
         }
       ]
     }
