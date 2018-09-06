@@ -21,8 +21,8 @@
       "endDate": "2018-10-06",
       "applyWidgetUrls": [
         {
-          "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/lada_lead_test/sitephone.debug.js",
-          "/widget/js/lead/desktop/personal_form.min.js": "https://rawgit.com/SemyonSuslin/customize/master/lada_lead_test/sitephone.debug.js",
+          "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/lada_lead_test/sitephone.js",
+          "/widget/js/lead/desktop/personal_form.min.js": "https://rawgit.com/SemyonSuslin/customize/master/lada_lead_test/personal_form.js",
           "/widget/css/sitephone2/desktop/sitephone-ed6b21.css": "https://rawgit.com/SemyonSuslin/customize/master/lada_lead_test/sitephone.css",
           "/widget/html/sitephone2/desktop/sitephone.html": "https://rawgit.com/SemyonSuslin/customize/master/lada_lead_test/sitephone.html"
         }
@@ -37,8 +37,8 @@
       "endDate": "2018-10-06",
       "applyWidgetUrls": [
         {
-          "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/lada_lead_test/sitephone.debug.js",
-          "/widget/js/lead/desktop/personal_form.min.js": "https://rawgit.com/SemyonSuslin/customize/master/lada_lead_test/sitephone.debug.js",
+                  "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/lada_lead_test/sitephone.js",
+          "/widget/js/lead/desktop/personal_form.min.js": "https://rawgit.com/SemyonSuslin/customize/master/lada_lead_test/personal_form.js",
           "/widget/css/sitephone2/desktop/sitephone-ed6b21.css": "https://rawgit.com/SemyonSuslin/customize/master/lada_lead_test/sitephone.css",
           "/widget/html/sitephone2/desktop/sitephone.html": "https://rawgit.com/SemyonSuslin/customize/master/lada_lead_test/sitephone.html"
         }
