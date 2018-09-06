@@ -2,9 +2,9 @@
   "saturn-2.lada.ru": [
     {
       "name": "h1",
-      "devices": ["desktop", "tablet"],
+      "devices": ["mobile"],
       "startDate": "2018-07-18",
-      "endDate": "2018-09-16",
+      "endDate": "2018-10-16",
       "applyWidgetUrls": [
         {
           "/widget/js/sitephone2/mobile/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h1/saturn-2.lada.ru%20%26%26%20autovek.lada.ru/kostyl/sitephone.js"
@@ -15,36 +15,32 @@
       ]
     },
     {
-      "name": "h1",
+      "name": "lada_lead_test",
       "devices": ["desktop", "tablet"],
-      "startDate": "2018-07-23",
-      "endDate": "2018-09-06",
+      "startDate": "2018-09-06",
+      "endDate": "2018-10-06",
       "applyWidgetUrls": [
         {
-          "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h1/saturn-2.lada.ru%20%26%26%20autovek.lada.ru/desktop/A/js/sitephone.debug.js",
-          "/widget/css/sitephone2/desktop/sitephone-ed6b21.css": "https://rawgit.com/SemyonSuslin/customize/master/h1/saturn-2.lada.ru%20%26%26%20autovek.lada.ru/desktop/A/css/style.css",
-          "/widget/html/sitephone2/desktop/sitephone.html": "https://rawgit.com/SemyonSuslin/customize/master/h1/saturn-2.lada.ru%20%26%26%20autovek.lada.ru/desktop/A/html/sitephone.html"
-        },
-        {
-          "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h1/saturn-2.lada.ru%20%26%26%20autovek.lada.ru/desktop/B/js/sitephone.debug.js"
+          "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/lada_lead_test/sitephone.debug.js",
+          "/widget/js/lead/desktop/personal_form.min.js": "https://rawgit.com/SemyonSuslin/customize/master/lada_lead_test/sitephone.debug.js",
+          "/widget/css/sitephone2/desktop/sitephone-ed6b21.css": "https://rawgit.com/SemyonSuslin/customize/master/lada_lead_test/style.css",
+          "/widget/html/sitephone2/desktop/sitephone.html": "https://rawgit.com/SemyonSuslin/customize/master/lada_lead_test/sitephone.html"
         }
       ]
     }
   ],
   "autovek.lada.ru": [
     {
-      "name": "h1",
+      "name": "lada_lead_test",
       "devices": ["desktop", "tablet"],
-      "startDate": "2018-07-23",
-      "endDate": "2018-09-06",
+      "startDate": "2018-09-06",
+      "endDate": "2018-10-06",
       "applyWidgetUrls": [
         {
-          "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h1/saturn-2.lada.ru%20%26%26%20autovek.lada.ru/desktop/A/js/sitephone.debug.js",
-          "/widget/css/sitephone2/desktop/sitephone-ed6b21.css": "https://rawgit.com/SemyonSuslin/customize/master/h1/saturn-2.lada.ru%20%26%26%20autovek.lada.ru/desktop/A/css/style.css",
-          "/widget/html/sitephone2/desktop/sitephone.html": "https://rawgit.com/SemyonSuslin/customize/master/h1/saturn-2.lada.ru%20%26%26%20autovek.lada.ru/desktop/A/html/sitephone.html"
-        },
-        {
-          "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h1/saturn-2.lada.ru%20%26%26%20autovek.lada.ru/desktop/B/js/sitephone.debug.js"
+          "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/lada_lead_test/sitephone.debug.js",
+          "/widget/js/lead/desktop/personal_form.min.js": "https://rawgit.com/SemyonSuslin/customize/master/lada_lead_test/sitephone.debug.js",
+          "/widget/css/sitephone2/desktop/sitephone-ed6b21.css": "https://rawgit.com/SemyonSuslin/customize/master/lada_lead_test/style.css",
+          "/widget/html/sitephone2/desktop/sitephone.html": "https://rawgit.com/SemyonSuslin/customize/master/lada_lead_test/sitephone.html"
         }
       ]
     }
