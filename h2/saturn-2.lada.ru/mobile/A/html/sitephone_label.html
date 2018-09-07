@@ -1,0 +1,25 @@
+<div class="comagic-c-sitephone-label--footer">
+    <div class="comagic-c-sitephone-label-footer-menu comagic-c-sitephone-label-footer-menu--close" c-ref="menu">
+        <% links.forEach(function(link) { %>
+            <a class="comagic-c-sitephone-label__menu-item" title="<%=link.text%>" href="<%=link.url%>">
+                <div class="comagic-c-sitephone-label__menu-item-picture"
+                     style="background-image: url('<%=link.icon%>')"></div>
+                <span><%=link.text%></span>
+            </a>
+        <% }); %>
+    </div>
+    <div class="comagic-c-sitephone-label-footer-items">
+        <span class="comagic-c-sitephone-label__item" title="Звонок" c-ref='trigger'>
+            <div class="comagic-c-sitephone-label__item-picture comagic-c-sitephone-label__item-picture--sitephone"></div>
+            <span>Звонок</span>
+        </span>
+        <a class="comagic-c-sitephone-label__item" title="Добраться" href="https://saturn-2.lada.ru/ds/page_contacts.php">
+            <div class="comagic-c-sitephone-label__item-picture comagic-c-sitephone-label__item-picture--map"></div>
+            <span>Как добраться</span>
+        </a>
+        <span class="comagic-c-sitephone-label__item" title="Меню" c-ref='menuTrigger'>
+            <div class="comagic-c-sitephone-label__item-picture comagic-c-sitephone-label__item-picture--menu"></div>
+            <span>Меню</span>
+        </span>
+    </div>
+</div>

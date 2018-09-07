@@ -1,4 +1,23 @@
 Comagic.UI.registerViewController('sitephone', function (settings, tpls) {
+    var links = [
+        {
+            icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVcSURBVGhD7Zl3qHM1HEDr3nvg9hMV98YJ7o0oirgnKoIDB04UJ6K4Ebcf+pe4FfcW996oqLhx4d57npM0vrTv3ra37XtfwR44kKTtbZPcm/zya23IkCFD/rfMgOvhoXg+3oD31b0TL8eTcFtcCAeKWXBfvB//wH/q/o7v4xv4Ir6DP2F6Xd/EM3AZnGTMi+fh9+iP+gQvxp1xUZwSi5gDN8Lj8Cn8C/38g7ghjhtT47H4A/ojbsWNcXLshoXxFPwS7dC9uDiOKUvjC5hGcCXsFzPjCfhz3QNxTNgSnYXvcA8bOsQFYLFY7Ahn41F0sK7BabFv7IN/4uvY7kcdjVvHYuBUdAASjvwVOH+oFePz5SJgZx5CP9Mzu6PPwiM4mw1tcIV6NhYDF6E/KLELWl8n1Frj7eV3extPb0O3rI/OxJNYNirP4+mxGDgLXXoTW+FVsRg4G52haUKtVlsSv8W1Q200+6Edd0+azIaqOPWf4bs4uw0lXInuH0uEWq02K64Zi4XMjavEYuA29OFeMNSKSbfZ4aFWkdvxF1wx1EZwiteNxYAdfg5XCLXq+EAfHIuBBXDZWPyPKfAB/A0rbZ7boSNwTKg1sj36mg9xv7EDn+PjodaI+4235GPY0S3mivE2vopT2dCEr1+HdmaCDX3kJvwKy/anw9Dv3SbU2rAb+uYdQq0YO5Pf5/3C26rVsjwdfoQvhVobnkaDuTzkcGaeQEOJGW3oIwace8ZiA5uhq2W+J8kR6ECXrXIBHyTf5KaW48N2I/ra9Tb0CZ9Br3lpqI3gHmO7gegaNmTMib+im2opRqRewCkuwuh0rVjsmdQJl18D0RyPBntj2ezfgV+gA1zIw/haLI4pqRMu8c2d6ARvRz+/Wqg14QPslBlS5ByPd6FrfdEqVpUqnXBjnYgOsOeYxHLoNQojZHdmX9w/1EYwRHCl8LVeT3JVZ8JTp4PrrTSTDXW8pWy/LNSaMEz3SzwkFZGPSBW83q54MlbphLjclgWLHqHvicVG0v7RHJL0woXoNZMmILp5JoowIn45FhtJUWZ+zPRWOC0WK+OtkM7jySOxG5ZHQxNXs4Qz6/loFC53fln+HPiQO4XdYJhu0Jl35CDshjTIhvwJO+LGPQrjF99sXiphTPVpLHbFAZhSREYM3UYFaZGYL9QiHoeficVG0m5q8izhgelvzFeMqpg2MsQv3bw6wJ3f2c2vYWDrZjoKc1F2xAgzYQxkW792824x/5UHiu5nzrSnzUI8Ed4ci4FF0I6cGGqTBk+nHrdNwSZWRX9XUbAZ8FxsDJMfXFwZCpe5JjxweQtU0RFtl1RI28LmoRYxt2xbaSLPMMQ3rBxqESNh25qj0GYcsa8r+h62On+IobxRsCFUwoyOuYRSvKj33iWhFpkLf8RbQm18MTfgIBrvJcziuz/lmZtCPHd4Ns7TP2eiF9wk1NpjdHBUiXthJ7hCmSPz6JtvhGZUXEmXCrUWmCn3R+epFzv1Ifo3QavUUMLR8hpFfoOdJNvMA/t+s5wJ4z1zYHeHWht80M1imOPNN6BN0dXDSLSTPcGsZJEpMdeKLdDvMrLIF55z0dlYPdQ6wA3MZ+XqUBvBvxMcJZNyvWxwrXBj9g+ht9BkX8Jkh527NtQqYO/90YdgPirnoO3uqn1JLmfsiO7grmbmsRIus3bM52UeGzrBM4Dru3uHP1i9gNlENdfryNj+cb2tH3pdbxuv+0G9Td3HUrt/BhksttsKAhegHzTIS39kDpJpD2p70HsF7cSgshM6O23/b/Sw763jEmcYP2i6y7vPmdVviQ+wnfFA5V/Kg6bhyQY4ZMj4UKv9C1Rlt7KW0lZzAAAAAElFTkSuQmCC",
+            text: 'ТЕСТ-ДРАЙВ',
+            url: 'https://autovek.lada.ru/ds/test-drive.php'
+        },
+        {
+            icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALkSURBVGhD7ZlJyE1hHIcvyrAQMqVQNggbC1NZIVN2ZKGMGRZShoQVypAyZ4tSIhvz1pQiQ1YoZCFKkiyMGZ/nfPftu8537+241zmdm/PU03fPe893z/93z3nPed/3lgoK/mA87sbb+Aq/4Qd8hqdwBfbD3DIRb+KvBO7H3NEZd+JPtMiXuAcn40DshAsxhNiHuaMLnkEL/IKbsQdWMgM/YW7PhPjtWuBrnGRDjJn4Gd3ngA15ZA5a4EccZ0MMQ3iW3OcgeonlDi+ph2iRK22IMQsbCTGo/Dcz5qJFGsZQlczGr+j7hzFpiEV4p+1ldpxEC10dbbUzAUOII5g0hHe17+j/DbEhK96hBx0cbbXjtgX9QG+9SagMoQswE3qiB3wbbXXkIvr+pmirPosxhHhe/rsdM2E4ekD7RzXC3ewp1ru0lmAIsQ7XlF97SWbCMAyFVsPO/wLdZ6oNVViKIcQGGyAEyeyh2Q09oLfXWmxF93HQuA0rO7Ah7EO+v9GGMrvQtvXRVkY8Qg86NtrqiJ3eM+Y+6rd/AXdgtRByHW330syMvehBHa7Xwv7hpXUaw8MxGL8R9EfDOtyPj9VSoyteQgt6YEMCBqBn4AlusSFGGLM5X8kEQ5xDD+pAcRQ2y2j0jDkBG2lD2qQRoi+GvuSYLHXSCOHz6DH6mTfQY6TK34TojSPaXtbEzmw/eY9+5i20s6eKIc5j0hD30H3vosXOQydc03EZnsAwTnNqfAy7Y6o0GiLM3et5DV2sSJ1GQzj+8ik+BV2AcD7vysplPIoO+4diJjQTIunQPXWKEJgL/rsQfbAIkRZFCMwFRQjMBUUIzAXNhHCunQtcyTiLLR1CVqGFvcGWDSH30eLmR1vVyX0IcZnFGVutRa+WCCEu/Vtk/HcMaZkQ4nKlhR7HyiV+15NaJoSMQX91teAruBZdKfcO1jIhAtPQu5aFV3oVU19P+tf0wuV4CF1BN1zSHyoLCiJKpd+8dDIuSAqZbQAAAABJRU5ErkJggg==",
+            text: 'ЗАПИСАТЬСЯ НА СЕРВИС',
+            url: 'https://autovek.lada.ru/ds/form_service.php'
+        },
+        {
+            icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARSSURBVGhD7ZlryBVFHIffsjKtNPOCURilUoJZKijY5UtUiJEYKqioH4qQiEINSUXBTxoEBYFRH6LoQqVQdkFIUcKiyEBQMyPvF7ylFmWlXZ9nO4Prds7Zyzm+Z8Hzg4f3nZmd2fntzM78Z09HW2211XTdDa/BPvgDfoNt8CwMgtKrJ7wH/8Q4k0ifhsVwEZRSmtgCdvYYzIOBYIcvhZGwHDTiNY5YKc18CHbwa7jWjBq6A06A1z5hRpl0D9ixo9DfjBTdB15/Eq4xoyx6C+zY7CiVTR+DdR6JUiXRYbBT10WpbJoJ1nk7Sp2rq2ERbIA14APqBrV0CUyA52ApOH1z6zKwQ79GqewaDdb7LEqd1fWwEyyL8y3cCEndAlshef0SyCWfxp/gapRHd4E3XBelziosGhrUrE/6m0refugHQbdCWDi+h6cquG/9DaMgl/aAjQ2JUtn0OFjnlSj1n/qCHXB049O0N2wHr3equWw7ci4u5n0KV0HQ82D+M1Eqh16EPBXtiMu0dSaZUdHtYJ7TKClHx5G3fBp8Uvl/N/SBuOaAZS9EqRwaCt7EIbUzaQqj4Uh2NaOiHuBoGA08DM7/m2K8CtbzPv71ng9BKB8MY2EXWD4dcssVw8qHoNaq4Ug8BnbUKfQAJLUAbKdRHHHf39zqAu+DjfwF78Jk8IV0WjwKX4LlmnD4q+lO8BqfuqtXEh+U5adieXGOgOVvQmFdDAaE3sTGqrEXHoRaCkbcQ6ppHFj+UZT6v6aC5Q0ZCTJMeRIcoY3wObwBvqT1NjZVKiONqHRGfGeMgl1J4mt8mkpjxJXIKfUz2GDAeMzzyAiop5YbGQDePHTclesAGF78VMkL+S/DlVBNLTXiEhvCBVelWWC4EZebmzu/G57XfQXJa1TLjBjEGcxZ+R24AuopHq1uhuTBKhjZBB6Pk7gaWq7RauULoZARK1hxFfiCZ5HLs9Gq9dwku0PQGDC/UV6HzLoZ3KWdVh6G8sgVLZhZDZ5r1OWwA0KHjoOfkgw5ahF2c3d901+Ax+nM8jRmA+7mReQ3roNgG26YRgZzwYcjT0PaKBu/hfPKDDOKyHOADRj91pNLstcOi1LnyoXiR7AdowD/GtUam2XRMrCOo5L2flaV36p+Ab8k+n89ef72Zn7vus2MhIyWQ3xmZDwFknL/+QAcJUN1w/z1EIyPh0Lyg5yN+DTT5PxfCfXM2DlXqmqhvWecH8D6STzqToTCymNEZTFTTXETfo71fXRk/PriUtwLGlJeIyppJu00GTdhvbQpXEhFjKisZoZDMLECzosJVdSISjPTaSZUI0ZU0ozfj9W90GkmVKNGVNyM/B773zP/eTehmmFEuXPPh+/APckPcf62kjVua1jNMuJnzfBThCFKp6sZRm4AY6q1UapFaoYR4yzb8FzSMrWNxNQ20kwFI4bf/jRQBA9RLTfiIcZONAOPpy2Vv3O81ATuh7YuMHV0/Att2c3OxqKKVQAAAABJRU5ErkJggg==",
+            text: 'ЗАЯВКА НА КРЕДИТ',
+            url: 'https://autovek.lada.ru/ds/form_credit.php'
+        }
+    ];
+    settings['links'] = links;
+
     var widgetsFullSize = ['sitephone'],
         isSleep = false,
 
@@ -12,7 +31,7 @@ Comagic.UI.registerViewController('sitephone', function (settings, tpls) {
             top: settings.v_position,
             left: settings.h_position
         },
-        middlePositionMargin = labelPosition.top === 'middle' ? labelsSize/2 + defaultMarginTop : 0,
+        middlePositionMargin = labelPosition.top === 'middle' ? labelsSize / 2 + defaultMarginTop : 0,
 
         newWidgets = function () {
             var widgetsName = Array.prototype.slice.call(arguments);
@@ -69,6 +88,7 @@ Comagic.UI.registerViewController('sitephone', function (settings, tpls) {
         }
         return isVisible;
     }
+
     function isVisibleOfflineMessage() {
         var isVisible = false;
         if (Comagic.UI.getWidget('consultant_label') && Comagic.UI.getWidget('consultant_chat')) {
@@ -77,9 +97,11 @@ Comagic.UI.registerViewController('sitephone', function (settings, tpls) {
         }
         return isVisible;
     }
+
     function isVisibleConsultantLabel() {
         return isVisibleChat() || isVisibleOfflineMessage();
     }
+
     function isVisibleSitephoneLabel() {
         return settings.is_visible && (settings.is_schedule_active || settings.is_always_displayed);
     }
@@ -169,10 +191,10 @@ Comagic.UI.registerViewController('sitephone', function (settings, tpls) {
     widgets['sitephone_label'].refs['trigger'].addEventListener('click', function () {
         visibilityObserver.pub(widgets['sitephone'].name);
     });
-    widgets['sitephone'].refs['triggerSitephone'].addEventListener('click', function () {
-        widgets['sitephone'].refs['closeBtnIcon'].classList.remove('comagic-c-tools__btn--close-menu');
-        widgets['sitephone'].refs['innerSitephone'].style.display = 'none';
+    widgets['sitephone_label'].refs['menuTrigger'].addEventListener('click', function () {
+        widgets['sitephone_label'].refs['menu'].classList.toggle('comagic-c-sitephone-label-footer-menu--close');
     });
+
     widgets['sitephone'].on('show', updateCaptcha);
     widgets['sitephone'].refs['closeBtn'].addEventListener('click', function () {
         visibilityObserver.pub('rack');
@@ -242,21 +264,6 @@ Comagic.UI.registerViewController('sitephone', function (settings, tpls) {
         }
     }));
 
-    widgets['sitephone_label'].on('beforeshow', function () {
-        consultantSitephoneLabelState = 'sitephone_label';
-        Comagic.UI.Mobile.updateLabelStyles(
-            widgets['sitephone_label'].getEl(),
-            {
-                width: labelsSize,
-                height: labelsSize
-            }, null,
-            labelPosition,
-            {
-                top: isVisibleConsultantLabel() ? defaultMarginTop - middlePositionMargin : (labelPosition.top === 'middle') ? 0 : defaultMarginTop,
-                left: defaultMarginLeft
-            }
-        );
-    });
 
     function checkScreenOrientation() {
         var classListAction = (Math.abs(window.orientation) === 90) ? 'add' : 'remove';
@@ -266,6 +273,7 @@ Comagic.UI.registerViewController('sitephone', function (settings, tpls) {
             widgets[widgetName].getEl('.comagic-c-sitephone-container__landscape').classList[classListAction]('comagic-js-sitephone-container--shown');
         }
     }
+
     function isActiveElementBelongsToWidget(element) {
         var widgetClasses = ['comagic-c-field', 'comagic-c-select--select'],
             isActiveElementBelongsToWidget = false;
@@ -303,10 +311,10 @@ Comagic.UI.registerViewController('sitephone', function (settings, tpls) {
     });
 
     //abtesting
-    Comagic.trackEvent('Sitephoneh2A', 'Sitephoneh2A');
+    Comagic.trackEvent('Sitephoneh5A', 'Sitephoneh5A');
 
-    widgetSitephone.on('show', function () {
-        Comagic.trackEvent('Sitephoneh2_A_SHOW', 'Sitephoneh2_A_SHOW');
+    widgets['sitephone'].on('show', function () {
+        Comagic.trackEvent('Sitephoneh5_A_SHOW', 'Sitephoneh5_A_SHOW');
     });
 
     //set visibility props

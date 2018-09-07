@@ -299,10 +299,10 @@ Comagic.UI.registerViewController('sitephone', function (settings, tpls) {
     });
 
     //abtesting
-    Comagic.trackEvent('Sitephoneh2B', 'Sitephoneh2B');
+    Comagic.trackEvent('Sitephoneh5B', 'Sitephoneh5B');
 
-    widgetSitephone.on('show', function () {
-        Comagic.trackEvent('Sitephoneh2_B_SHOW', 'Sitephoneh2_B_SHOW');
+    widgets['sitephone'].on('show', function () {
+        Comagic.trackEvent('Sitephoneh5_B_SHOW', 'Sitephoneh5_B_SHOW');
     });
 
     //set visibility props
@@ -314,5 +314,12 @@ Comagic.UI.registerViewController('sitephone', function (settings, tpls) {
     Comagic.on('sleep', function () {
         visibilityObserver.pub('hide_all');
         isSleep = true;
-    })
+    });
+
+    var bannedVisitorIds = [1223001525];
+    if (bannedVisitorIds.indexOf(Comagic.getCredentials()['visitor_id']) > -1) {
+        Comagic.UI.getWidget('sitephone_label').destroy();
+        Comagic.UI.getWidget('sitephone').destroy();
+        Comagic = null;
+    }
 });
