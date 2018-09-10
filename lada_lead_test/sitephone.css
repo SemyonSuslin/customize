@@ -791,6 +791,7 @@
 
 .comagic-js-sitephone--hidden {
   pointer-events: none;
+  display: none;
 }
 
 .comagic-js-sitephone--hidden.comagic-c-sitephone-container--bottom.comagic-c-sitephone-container--left {
