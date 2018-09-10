@@ -822,7 +822,7 @@
   opacity: 1;
   transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
   transition-delay: 0.4s, 0.4s;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.6);
       pointer-events: all;
 }
 
