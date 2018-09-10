@@ -718,7 +718,7 @@
   box-sizing: content-box;
 }
 .comagic-c-sitephone-label--footer {
-  z-index: 500;
+  z-index: 1002;
   position: fixed;
   box-sizing: content-box;
   bottom: 0;
