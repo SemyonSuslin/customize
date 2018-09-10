@@ -1,22 +1,29 @@
 {
   "saturn-2.lada.ru": [
     {
-      "name": "h1",
-      "devices": ["mobile"],
-      "startDate": "2018-07-18",
-      "endDate": "2018-10-16",
+      "name": "h5",
+      "devices": [
+        "mobile"
+      ],
+      "startDate": "2018-09-06",
+      "endDate": "2018-11-16",
       "applyWidgetUrls": [
         {
-          "/widget/js/sitephone2/mobile/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h1/saturn-2.lada.ru%20%26%26%20autovek.lada.ru/kostyl/sitephone.js"
+          "/widget/js/sitephone2/mobile/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h2/saturn-2.lada.ru/mobile/A/js/sitephone.debug.js",
+          "/widget/css/sitephone2/mobile/sitephone-ed6b21.css": "https://rawgit.com/SemyonSuslin/customize/master/h2/saturn-2.lada.ru/mobile/A/css/style.css",
+          "/widget/html/sitephone2/mobile/sitephone_label.html": "https://rawgit.com/SemyonSuslin/customize/master/h2/saturn-2.lada.ru/mobile/A/html/sitephone_label.html"
         },
         {
-          "/widget/js/sitephone2/mobile/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h1/saturn-2.lada.ru%20%26%26%20autovek.lada.ru/kostyl/sitephone.js"
+          "/widget/js/sitephone2/mobile/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h2/saturn-2.lada.ru/mobile/B/js/sitephone.debug.js"
         }
       ]
     },
     {
       "name": "lada_lead_test",
-      "devices": ["desktop", "tablet"],
+      "devices": [
+        "desktop",
+        "tablet"
+      ],
       "startDate": "2018-09-06",
       "endDate": "2018-10-06",
       "applyWidgetUrls": [
@@ -31,13 +38,34 @@
   ],
   "autovek.lada.ru": [
     {
+      "name": "h5",
+      "devices": [
+        "mobile"
+      ],
+      "startDate": "2018-09-06",
+      "endDate": "2018-11-16",
+      "applyWidgetUrls": [
+        {
+          "/widget/js/sitephone2/mobile/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h2/autovek.lada.ru/mobile/A/js/sitephone.debug.js",
+          "/widget/css/sitephone2/mobile/sitephone-ed6b21.css": "https://rawgit.com/SemyonSuslin/customize/master/h2/autovek.lada.ru/mobile/A/css/style.css",
+          "/widget/html/sitephone2/mobile/sitephone_label.html": "https://rawgit.com/SemyonSuslin/customize/master/h2/autovek.lada.ru/mobile/A/html/sitephone_label.html"
+        },
+        {
+          "/widget/js/sitephone2/mobile/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h2/autovek.lada.ru/mobile/B/js/sitephone.debug.js"
+        }
+      ]
+    },
+    {
       "name": "lada_lead_test",
-      "devices": ["desktop", "tablet"],
+      "devices": [
+        "desktop",
+        "tablet"
+      ],
       "startDate": "2018-09-06",
       "endDate": "2018-10-06",
       "applyWidgetUrls": [
         {
-                  "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/lada_lead_test/sitephone.js",
+          "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/lada_lead_test/sitephone.js",
           "/widget/js/lead/desktop/personal_form.min.js": "https://rawgit.com/SemyonSuslin/customize/master/lada_lead_test/personal_form.js",
           "/widget/css/sitephone2/desktop/sitephone-ed6b21.css": "https://rawgit.com/SemyonSuslin/customize/master/lada_lead_test/sitephone.css",
           "/widget/html/sitephone2/desktop/sitephone.html": "https://rawgit.com/SemyonSuslin/customize/master/lada_lead_test/sitephone.html"
@@ -48,7 +76,9 @@
   "www.moto-avtodom.ru": [
     {
       "name": "h2",
-      "devices": ["mobile"],
+      "devices": [
+        "mobile"
+      ],
       "startDate": "2018-09-04",
       "endDate": "2018-09-23",
       "applyWidgetUrls": [
@@ -63,9 +93,12 @@
       ]
     }
   ],
-  "www.mini-avtodom.ru": [{
+  "www.mini-avtodom.ru": [
+    {
       "name": "h2",
-      "devices": ["mobile"],
+      "devices": [
+        "mobile"
+      ],
       "startDate": "2018-09-04",
       "endDate": "2018-09-23",
       "applyWidgetUrls": [
@@ -83,7 +116,10 @@
   "maximum-suzuki.ru": [
     {
       "name": "h1",
-      "devices": ["desktop", "tablet"],
+      "devices": [
+        "desktop",
+        "tablet"
+      ],
       "startDate": "2018-07-23",
       "endDate": "2018-09-06",
       "applyWidgetUrls": [
@@ -101,7 +137,10 @@
   "www.hyundai-reginasmag.ru": [
     {
       "name": "h1",
-      "devices": ["desktop", "tablet"],
+      "devices": [
+        "desktop",
+        "tablet"
+      ],
       "startDate": "2018-07-30",
       "endDate": "2018-09-06",
       "applyWidgetUrls": [
@@ -119,7 +158,10 @@
   "www.moscow-suzuki.ru": [
     {
       "name": "h1",
-      "devices": ["desktop", "tablet"],
+      "devices": [
+        "desktop",
+        "tablet"
+      ],
       "startDate": "2018-07-30",
       "endDate": "2018-09-06",
       "applyWidgetUrls": [
@@ -137,7 +179,9 @@
   "petromaster.ru": [
     {
       "name": "h2",
-      "devices": ["mobile"],
+      "devices": [
+        "mobile"
+      ],
       "startDate": "2018-08-17",
       "endDate": "2018-09-17",
       "applyWidgetUrls": [
@@ -155,7 +199,9 @@
   "legenda-dom.ru": [
     {
       "name": "h3",
-      "devices": ["desktop"],
+      "devices": [
+        "desktop"
+      ],
       "startDate": "2018-08-17",
       "endDate": "2018-09-17",
       "applyWidgetUrls": [
@@ -173,7 +219,9 @@
   "www.bmw-avtodom.ru": [
     {
       "name": "h2",
-      "devices": ["mobile"],
+      "devices": [
+        "mobile"
+      ],
       "startDate": "2018-08-23",
       "endDate": "2018-09-23",
       "applyWidgetUrls": [

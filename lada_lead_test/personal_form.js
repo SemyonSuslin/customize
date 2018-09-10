@@ -9,15 +9,14 @@ Comagic.UI.registerViewController('personal_form', function (settings, tpls) {
                 id: settings['id'],
                 template: tpls['personal_form']
             });
-
             if (settings.image_url) {
-                cache.image_url = settings.image_url;
+                cache.image_url = sitephone.refs.img.style.backgroundImage;
                 sitephone.refs.img.style = 'background-image: url(' + settings.image_url + ')';
             }
             cache.title = sitephone.refs.title.innerHTML;
             cache.text = sitephone.refs.text.innerHTML;
             cache.submitBtn = sitephone.refs.submitBtn.innerHTML;
-            
+
             sitephone.refs.title.innerHTML = settings.banner_title;
             sitephone.refs.text.innerHTML = settings.banner_text;
             sitephone.refs.submitBtn.innerHTML = settings.button_text;
@@ -28,6 +27,10 @@ Comagic.UI.registerViewController('personal_form', function (settings, tpls) {
                 sitephone.refs.title.innerHTML = cache.title;
                 sitephone.refs.text.innerHTML = cache.text;
                 sitephone.refs.submitBtn.innerHTML = cache.submitBtn;
+
+                if (settings.image_url) {
+                    sitephone.refs.img.style.backgroundImage = cache.image_url;
+                }
             });
 
             sitephone.on('callcomplete', function () {
