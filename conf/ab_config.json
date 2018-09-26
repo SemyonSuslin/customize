@@ -26,13 +26,49 @@
         "tablet"
       ],
       "startDate": "2018-09-06",
-      "endDate": "2018-10-06",
+      "endDate": "2018-10-31",
       "applyWidgetUrls": [
         {
           "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/lada_lead_test/sitephone.js",
           "/widget/js/lead/desktop/personal_form.min.js": "https://rawgit.com/SemyonSuslin/customize/master/lada_lead_test/personal_form.js",
           "/widget/css/sitephone2/desktop/sitephone-ed6b21.css": "https://rawgit.com/SemyonSuslin/customize/master/lada_lead_test/sitephone.css",
           "/widget/html/sitephone2/desktop/sitephone.html": "https://rawgit.com/SemyonSuslin/customize/master/lada_lead_test/sitephone.html"
+        }
+      ]
+    }
+  ],
+  "www.bmw-avtodom.ru": [
+    {
+      "name": "h3",
+      "devices": ["desktop", "tablet"],
+      "startDate": "2018-09-26",
+      "endDate": "2018-10-26",
+      "applyWidgetUrls": [
+        {
+          "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h3/www.bmw-avtodom.ru/desktop/A/js/sitephone.debug.js",
+          "/widget/css/sitephone2/desktop/sitephone-3880ED.css": "https://rawgit.com/SemyonSuslin/customize/master/h3/www.bmw-avtodom.ru/desktop/A/css/style.css",
+          "/widget/html/sitephone2/desktop/sitephone_label.html": "https://rawgit.com/SemyonSuslin/customize/master/h3/www.bmw-avtodom.ru/desktop/A/html/sitephone_label.html"
+        },
+        {
+          "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h3/www.bmw-avtodom.ru/desktop/B/js/sitephone.debug.js"
+        }
+      ]
+    }
+  ],
+  "www.moto-avtodom.ru": [
+    {
+      "name": "h3",
+      "devices": ["desktop", "tablet"],
+      "startDate": "2018-09-26",
+      "endDate": "2018-10-26",
+      "applyWidgetUrls": [
+        {
+          "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h3/www.bmw-avtodom.ru/desktop/A/js/sitephone.debug.js",
+          "/widget/css/sitephone2/desktop/sitephone-3880ED.css": "https://rawgit.com/SemyonSuslin/customize/master/h3/www.bmw-avtodom.ru/desktop/A/css/style.css",
+          "/widget/html/sitephone2/desktop/sitephone_label.html": "https://rawgit.com/SemyonSuslin/customize/master/h3/www.bmw-avtodom.ru/desktop/A/html/sitephone_label.html"
+        },
+        {
+          "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/h3/www.bmw-avtodom.ru/desktop/B/js/sitephone.debug.js"
         }
       ]
     }
