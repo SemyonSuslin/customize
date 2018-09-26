@@ -40,7 +40,10 @@
   "www.bmw-avtodom.ru": [
     {
       "name": "h3",
-      "devices": ["desktop", "tablet"],
+      "devices": [
+        "desktop",
+        "tablet"
+      ],
       "startDate": "2018-09-26",
       "endDate": "2018-10-26",
       "applyWidgetUrls": [
@@ -58,7 +61,10 @@
   "www.moto-avtodom.ru": [
     {
       "name": "h3",
-      "devices": ["desktop", "tablet"],
+      "devices": [
+        "desktop",
+        "tablet"
+      ],
       "startDate": "2018-09-26",
       "endDate": "2018-10-26",
       "applyWidgetUrls": [
@@ -76,7 +82,10 @@
   "www.mini-avtodom.ru": [
     {
       "name": "h3",
-      "devices": ["desktop", "tablet"],
+      "devices": [
+        "desktop",
+        "tablet"
+      ],
       "startDate": "2018-09-26",
       "endDate": "2018-10-26",
       "applyWidgetUrls": [
@@ -90,4 +99,5 @@
         }
       ]
     }
+  ]
 }
