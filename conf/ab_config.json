@@ -7,7 +7,7 @@
         "tablet"
       ],
       "startDate": "2018-09-06",
-      "endDate": "2018-11-31",
+      "endDate": "2018-11-30",
       "applyWidgetUrls": [
         {
           "/widget/js/sitephone2/desktop/sitephone.min.js": "https://rawgit.com/SemyonSuslin/customize/master/lada_lead_test/sitephone.js",
