@@ -1,0 +1,30 @@
+<html>
+<head>
+    <script type="text/javascript">
+        //yourSiteKey в примере надо заменить на свой siteKey из личного кабинета
+        var __cs = __cs || [];
+        __cs.push(["setAccount", "yourSiteKey"]);
+        //кастомизация
+        //описание возможностей и документация тут https://www.comagic.ru/support/api/javascript-api/manual/code/
+        // your.domain/your_location_path  - путь по которому кладете скрипты, шаблоны и стили из этих примеров
+        // принцип такой: в методе снизу переопределяются url'ы по котором берутся составляющие виджета
+        __cs.push(["applyWidgetsOptions", {
+            'sitephone': {
+                //стили для мобильных устройств
+                mobile: {
+                    css: '//your.domain/your_location_path/sitephone/css/style.css',
+                    tpls: {
+                        sitephone_label: '//your.domain/your_location_path/sitephone/html/sitephone_label.html'
+                    },
+                    js: '//your.domain/your_location_path/sitephone/html/sitephone.debug.js'
+                }
+                // можно добавить стили для других девайсов
+            }
+        }]);
+    </script>
+    <script type="text/javascript" async="true" src="//app.comagic.ru/static/cs.min.js"></script>
+</head>
+<body>
+Hello world
+</body>
+</html>
